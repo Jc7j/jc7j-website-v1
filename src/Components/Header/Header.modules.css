@@ -1,0 +1,14 @@
+.headerContainer {
+  display: block;
+  margin-top: 4em;
+}
+
+.nameText {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.nameSubHeading {
+  font-size: 37px;
+  font-weight: 700;
+}
