@@ -1,10 +1,7 @@
-.linkContainer {
-  border: 1px solid #000;
-}
-
 .linkText {
   text-decoration: none;
   color: #000;
   font-size: 17px;
   font-weight: 400;
+  font-family: 'Roboto Mono', monospace;
 }

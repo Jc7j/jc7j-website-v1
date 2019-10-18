@@ -1,6 +1,7 @@
 .headerContainer {
   display: block;
-  margin-top: 4em;
+  top: 50%;
+  left: 50%;
 }
 
 .nameText {
@@ -11,4 +12,8 @@
 .nameSubHeading {
   font-size: 37px;
   font-weight: 700;
+}
+
+.linkSection {
+  display: flex;
 }

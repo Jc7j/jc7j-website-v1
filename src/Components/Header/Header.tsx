@@ -13,10 +13,14 @@ const Header = (props: HeaderProps) => {
     <header className="headerContainer">
       <h1 className="nameText">{name}</h1>
       <h2 className="nameSubHeading">{subHeading}</h2>
-      <Link
-        link="https://www.linkedin.com/in/jasonchiangjc7j/"
-        linkText="LinkedIn"
-      />
+      <section className="linkSection">
+        <Link
+          link="https://www.linkedin.com/in/jasonchiangjc7j/"
+          linkText="LinkedIn"
+        />
+        <Link link="https://github.com/Jc7j" linkText="Github" />
+        <Link link="mailto:chiangjason19@gmail.com?subject=" linkText="email" />
+      </section>
     </header>
   );
 };

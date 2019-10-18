@@ -13,7 +13,7 @@ const Link = (props: LinkProps) => {
 
   return (
     <div className="linkContainer">
-      <Button>
+      <Button variant="contained" size="large">
         <a href={link} target="#" className="linkText">
           {linkText}
         </a>
