@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
 
 import './Link.modules.css';
 
@@ -13,11 +12,9 @@ const Link = (props: LinkProps) => {
 
   return (
     <div className="linkContainer">
-      <Button variant="contained" size="large">
-        <a href={link} target="#" className="linkText">
-          {linkText}
-        </a>
-      </Button>
+      <a href={link} target="#" className="linkText">
+        {linkText}
+      </a>
     </div>
   );
 };
