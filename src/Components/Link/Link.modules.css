@@ -20,15 +20,15 @@ a {
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
 }
-a:hover,
+/* a:hover,
 a:focus {
   color: #fff;
   outline: 0;
-}
+} */
 
 .linkText {
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 .linkText:hover {
-  box-shadow: 0 0 40px 40px #000 inset;
+  box-shadow: 0 0 40px 40px #fff inset;
 }

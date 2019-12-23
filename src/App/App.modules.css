@@ -11,7 +11,8 @@ body {
 }
 
 .appContainer {
-  margin: 0 auto;
+  margin: 1.4rem auto;
   max-width: 960px;
+  border: 1px solid;
   padding: 0px 1.0875rem 1.45rem;
 }
