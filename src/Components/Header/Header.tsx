@@ -22,7 +22,6 @@ const Header = (props: HeaderProps) => {
         />
         <Link link="https://github.com/Jc7j" linkText="Github" />
         <Link link="mailto:chiangjason19@gmail.com?subject=" linkText="email" />
-        <Link link="#" linkText="Resume" />
       </section>
     </header>
   );
